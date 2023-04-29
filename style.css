@@ -2,33 +2,39 @@ body {
   background-color: rgb(32, 32, 37);
 }
 
-.menu {
-  display: inline-block;
-  background-color: #18181C;
+.container {
+  margin: 40px;
 }
 
-.logo {
-  width: 100px;
-  display: block;
-  border-radius: 100px;
-  border: 2px solid #ffffffd3;
-}
-
-.name {
+.greetings {
   color: white;
   font-family: Arial;
+  font-size: 50px;
 }
 
-button {
-  display: block;
-}
-
-.links {
+.description {
+  color: white;
   font-family: Inter;
-  color: white;  
+  font-size: 20px;
 }
 
-.info {
-  display: inline-block;
-  vertical-align: top;
+.join-my-discord {
+  font-size: 25px;
+  font-weight: 600;
+
+  color: white;
+  background-color: #5865F2;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border: none;
+  border-radius: 16px;
+}
+
+.join-my-discord:hover {
+  background-color: #5865f2d8;
+  cursor: pointer;
 }
